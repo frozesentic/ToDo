@@ -380,6 +380,6 @@ body {
     .task-input input[type="date"] {
         width: 100%;
         margin: 8px 0;
-        padding: 10px; /* Increase padding to increase height */
+        padding: 20px; /* Increase padding to increase height */
     }
 }
