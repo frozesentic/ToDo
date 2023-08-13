@@ -372,14 +372,16 @@ body {
     }
 
     .task-input {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row; /* Change flex-direction to row */
+        justify-content: space-between; /* Add this to space items evenly */
+        align-items: center; /* Add this to vertically center items */
+        padding: 0 20px;
     }
 
     .task-input input[type="text"],
     .task-input input[type="date"] {
-        width: 100%;
+        width: calc(50% - 10px); /* Divide available width by 2 and subtract spacing */
         margin: 8px 0;
-        padding: 20px; /* Increase padding to increase height */
+        padding: 20px;
     }
 }
