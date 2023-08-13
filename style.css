@@ -381,7 +381,8 @@ body {
     .input-icon {
         display: flex;
         align-items: center;
-        margin-right: 15px; /* Add spacing between icon and input */
+        margin-right: 25px; /* Add spacing between icon and input */
+        margin-left: 25px; /* Add spacing between icon and input */
     }
     
     .input-icon img {
