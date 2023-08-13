@@ -370,10 +370,5 @@ body {
     .task label input{
         margin-top: 4px;
     }
-
-    .task-input input[type="text"],
-    .task-input input[type="date"] {
-        width: 100%;
-        margin: 8px 16px;
-    }
+    
 }
