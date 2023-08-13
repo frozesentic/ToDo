@@ -377,6 +377,17 @@ body {
         align-items: center; /* Add this to vertically center items */
         padding: 0 20px;
     }
+    
+    .input-icon {
+        display: flex;
+        align-items: center;
+        margin-right: 10px; /* Add spacing between icon and input */
+    }
+    
+    .input-icon img {
+        height: 24px;
+        width: 24px;
+    }
 
     .task-input input[type="text"],
     .task-input input[type="date"] {
