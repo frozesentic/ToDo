@@ -369,7 +369,7 @@ body {
     }
 
     .container {
-        max-width: 505px;
+        max-width: 405px;
         margin: 0 auto; /* Center the container */
         padding: 0 10px; /* Add some padding on the sides */
     }
