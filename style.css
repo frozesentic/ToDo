@@ -115,6 +115,29 @@ body {
     height: 52px;
     padding: 0 25px;
     position: relative;
+    padding: 0 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    margin-right: 10px;
+}
+
+.input-icon img {
+    height: 24px;
+    width: 24px;
+}
+
+.task-input input[type="text"] {
+    flex: 1; /* Take remaining width */
+}
+
+.task-input input[type="date"] {
+    width: auto; /* Adjust width if necessary */
 }
 
 .task-input input {
@@ -370,29 +393,5 @@ body {
     .task label input{
         margin-top: 4px;
     }
-
-    .task-input {
-        flex-direction: row; /* Change flex-direction to row */
-        justify-content: space-between; /* Add this to space items evenly */
-        align-items: center; /* Add this to vertically center items */
-        padding: 0 20px;
-    }
     
-    .input-icon {
-        display: flex;
-        align-items: center;
-        margin-right: 25px; /* Add spacing between icon and input */
-    }
-    
-    .input-icon img {
-        height: 24px;
-        width: 24px;
-    }
-
-    .task-input input[type="text"],
-    .task-input input[type="date"] {
-        width: calc(50% - 10px); /* Divide available width by 2 and subtract spacing */
-        margin: 8px 0;
-        padding: 20px;
-    }
 }
