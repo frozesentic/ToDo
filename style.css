@@ -368,4 +368,10 @@ body {
         margin-top: 4px;
     }
 
+    .container {
+        max-width: 505px;
+        margin: 0 auto; /* Center the container */
+        padding: 0 10px; /* Add some padding on the sides */
+    }
+
 }
