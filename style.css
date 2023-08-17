@@ -276,6 +276,8 @@ body {
     padding: 4px 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    max-height: 30px; /* Set a maximum height */
+    overflow: hidden; /* Hide any content that exceeds the max-height */
 }
 
 .due-date {
@@ -366,12 +368,6 @@ body {
 
     .task label input{
         margin-top: 4px;
-    }
-
-    .container {
-        max-width: 405px;
-        margin: 0 auto; /* Center the container */
-        padding: 0 10px; /* Add some padding on the sides */
     }
 
 }
